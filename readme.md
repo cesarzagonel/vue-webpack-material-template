@@ -1,5 +1,5 @@
 # vue-webpack-material-template
-> Simple todo application that targets browsers and Apache Cordova Android.
+> Simple todo application that targets browsers and Apache Cordova.
 
 # Usage
 ``` bash
@@ -31,6 +31,8 @@ $ npm build
 ```
 
 # Offline
+The service-worker.js file is generated using [sw-precache](https://github.com/GoogleChrome/sw-precache).
+
 For running the application offline all you need to do is **build** the application, then serve it using **start** script.
 
 With yarn:

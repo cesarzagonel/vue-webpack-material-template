@@ -1,5 +1,5 @@
 # vue-webpack-material-template
-> Simples aplicação para browsers e Apache Cordova Android.
+> Simples aplicação para browsers e Apache Cordova.
 
 # Usando
 ``` bash
@@ -31,6 +31,8 @@ $ npm build
 ```
 
 # Offline
+O arquivo service-worker.js é gerado usando [sw-precache](https://github.com/GoogleChrome/sw-precache).
+
 Para rodar esta aplicação offline tudo que você precisa fazer é **compila-la** e então servi-la usando o script **start**.
 
 Com yarn:
