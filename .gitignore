@@ -2,5 +2,5 @@
 .idea
 node_modules
 
-/bundle
-/service-worker.js
+# /bundle
+# /service-worker.js
