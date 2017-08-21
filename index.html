@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Vue Material Todos</title>
+</head>
+<body>
+
+<div id="app">
+    <md-toolbar>
+        <h1 class="md-title">Vue Material Todos</h1>
+    </md-toolbar>
+
+    <todos></todos>
+</div>
+
+<script>
+    /**
+     * Check for custom user agent for loading cordova.js
+     * This is necessary for using cordova plugins
+     */
+    var ua = navigator.userAgent;
+    var cordovajs = document.createElement('script');
+
+    if(ua.match(/(CordovaAndroid)/)){
+        cordovajs.src = 'cdvfile://localhost/assets/www/cordova.js';
+    }else if(ua.match(/(CordovaiOS)/)){
+        cordovajs.src = 'cdvfile://localhost/bundle/www/cordova.js';
+    }
+
+    document.body.appendChild(cordovajs);
+</script>
+
+<script src="bundle/bootstrap.bundle.js"></script>
+</body>
+</html>
