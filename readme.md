@@ -1,6 +1,10 @@
 # vue-webpack-material-template
 > Simple todo application that targets browsers and Apache Cordova.
 
+# Screenshots
+![Screenshot 01](/screenshots/01.png)
+![Screenshot 02](/screenshots/02.png)
+
 # Usage
 ``` bash
 $ git clone git@github.com:cesarzagonel/vue-webpack-material-template
